@@ -1,0 +1,243 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+.key-main-fresh {
+    max-width: 50%;
+    position: relative;
+    bottom: 1.5em;
+}
+.key-box {
+    border: #a92e89 1px solid;
+    border-radius: 8px;
+    position: relative;
+    bottom: 4em;
+    max-width: 35%;
+}
+
+.key-icon.editable {
+    height: 20px;
+    padding-right: 0.5em;
+    position: relative;
+    left: 0.1em;
+    top: 0.2em;
+}
+
+.key.prefix__st1 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.2528;
+}
+.key.prefix__st3 {
+    fill: #515254;
+}
+.key.prefix__st4 {
+    font-family: 'Gilroy Medium';
+}
+.key.prefix__st5 {
+    font-size: 12px;
+}
+.key.prefix__st7 {
+    fill: #a0147e;
+}
+.key.prefix__st8 {
+    font-family: 'Gilroy Bold';
+}
+.key.prefix__st9 {
+    font-family: 'MinionProMedium';
+}
+.key.prefix__st12 {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.25;
+}
+
+.key {
+    height: 6em;
+    position: relative;
+    bottom: 5em;
+}
+
+.key-icons {
+    padding-right: 0.2em;
+    height: 25px;
+}
+.icons-column-left {
+    padding-left: 0.75em;
+}
+
+.icons-column-right {
+    padding-right: 1em;
+}
+
+.diagram-key-title {
+    color: #a92e89;
+    font-family: 'Gilroy Bold';
+    font-size: 1em;
+    margin-left: 0.75em;
+    margin-bottom: 0.75em;
+    margin-top: 0.5em;
+}
+
+.key-icon.editable {
+    height: 20px;
+    padding-right: 0.5em;
+    position: relative;
+    left: 0.1em;
+    top: 0.2em;
+}
+
+.key-icons {
+    padding-right: 0.2em;
+    height: 25px;
+}
+
+.icons-item-text {
+    color: #515254;
+    font-family: 'Gilroy';
+    font-size: 1em;
+    margin-top: 0.25em;
+}
+
+.icons-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons-column-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-column-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-diagram {
+    width: 100%;
+}
+
+.diagram-container {
+    padding-right: 1em;
+    width: 60%;
+}
+
+.above-diagram {
+    max-width: 50%;
+    padding-bottom: 1.5em;
+}
+
+.modals-container {
+    width: 30%;
+    position: relative;
+    bottom: 3em;
+}
+
+.above-diagram-text {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.bold-above-diagram {
+    color: #8f1e74;
+    font-family: 'Gilroy Extra Bold';
+}
+
+.key {
+    width: 30%;
+    position: relative;
+    bottom: 5em;
+}
+
+.instructions {
+    margin-bottom: 2em;
+}
+
+.main-diagram {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 1042px) {
+    .main-page {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+}
+
+@media (min-width: 1270px) {
+    .diagram-container {
+        padding-right: 3em;
+    }
+}
+
+@media (min-width: 1422px) {
+    .modals-container {
+        width: 40%;
+    }
+    .diagram-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .diagram-key-title {
+        font-size: 1.5em;
+    }
+
+    .key-icon.editable {
+        height: 24px;
+    }
+
+    .icons-item-text {
+        font-size: 1em;
+        margin-top: 0.4em;
+    }
+    .key-icons {
+        height: 30px;
+    }
+    .key-box {
+        bottom: 5em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .key-box {
+        bottom: 6em;
+    }
+}
+
+@media (min-width: 1450px) {
+    .above-diagram-text {
+        margin-top: 1em;
+    }
+    .above-diagram {
+        margin-bottom: 0;
+    }
+
+    .diagram-container {
+        padding-right: 6em;
+    }
+}
+
+@media (min-width: 1590px) {
+    .modals-container {
+        width: 40%;
+    }
+    .diagram-container {
+        width: 70%;
+    }
+}
